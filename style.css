@@ -1,0 +1,112 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Clock */
+.clock {
+  background-color: darkgray;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #4f4f4f;
+}
+
+.time,
+.hours,
+.minutes,
+.seconds {
+  display: inline;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #f5f3f3;
+}
+
+/* Form */
+
+.header {
+  border-bottom: solid 1px #e3e3e3e3;
+}
+
+.container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 280px;
+  background-color: white;
+  padding: 0px 30px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #4f4f4f;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.input {
+  display: block;
+  border: solid 1px #4f4f4f;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 18px;
+  width: 100%;
+  padding: 5px 0 5px 5px;
+}
+
+.name,
+.surName,
+.email,
+.address,
+.date,
+.animals {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.datepadd{
+  margin-bottom: 15px;
+}
+
+.pap {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #11998e;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.btn:hover {
+  background-color: #0e887e;
+}
+
+.ageShow{
+ 
+  font-family: sans-serif;
+  font-size: 20px;
+}

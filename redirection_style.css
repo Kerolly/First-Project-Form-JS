@@ -1,0 +1,19 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}

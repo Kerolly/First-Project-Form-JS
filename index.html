@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>Primul MiniProiect</title>
+  </head>
+  <body>
+    <!-- Clock -->
+    <div class="clock">
+      <div class="time">
+        <div class="hours">00<span>:</span></div>
+        <div class="minutes">00</div>
+        <div class="seconds">00</div>
+      </div>
+    </div>
+
+    <!-- Form -->
+
+    <form id="myForm">
+      <div class="container-form">
+        <div class="form">
+          <h1 class="header" id="header"></h1>
+          <form>
+            <div class="form-control">
+              <span class="name" id="name"
+                >Prenume
+                <input
+                  class="input"
+                  id="username"
+                  type="text"
+                  placeholder="Mircea"
+                  required
+              /></span>
+            </div>
+            <br />
+            <div class="form-control">
+              <span class="surName" id="surName">Nume</span>
+              <input class="input" type="text" placeholder="Popescu" required />
+            </div>
+            <br />
+            <div class="form-control">
+              <span class="email" id="email">E-mail</span>
+              <input
+                class="input"
+                type="text"
+                placeholder="e-mail@gmail.com"
+                required
+              />
+            </div>
+            <br />
+            <div class="form-control">
+              <span class="address" id="address">Adresa</span>
+              <input
+                class="input"
+                type="text"
+                placeholder="Str. Alexandru nr.59A"
+                required
+              />
+            </div>
+            <br />
+            <div class="form-control">
+              <span class="date">Data de nastere</span>
+              <input
+                class="input datepadd"
+                id="age_date"
+                type="date"
+                required
+              />
+              <span class="ageShow" id="ageShow"></span>
+            </div>
+            <br />
+            <div class="form-control">
+              <label>
+                <span class="animals" id="animals">Animale preferate</span>
+                <br />
+                <br />
+                <input class="checkbox" type="checkbox" />
+                <span class="pap">Pisica</span>
+                <br />
+                <input class="checkbox" type="checkbox" />
+                <span class="pap">Caine</span>
+                <br />
+                <input class="checkbox" type="checkbox" />
+                <span class="pap">Papagal</span>
+              </label>
+              <br />
+              <button class="btn" type="submit" id="btn-redirect">
+                Trimite
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
